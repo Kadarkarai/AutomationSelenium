@@ -16,6 +16,8 @@ public class Etraininfo {
 	private By dateoverlay = By.xpath("//div[@class='dpdd etcal closeTapOut']");
 	private By autocomplete = By.xpath("//div[@id='et_autocomplete']");
 	
+	private By something = By.id("testing");
+
 	public By autocompleteselection(String value) {
 		return By.xpath("//div[@id='suggest_row1']//b[text()='"+value+"']");
 	}
